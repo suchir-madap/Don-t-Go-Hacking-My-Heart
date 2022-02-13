@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Gif2LovedOne</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='login.css') }}">
+
+<body>
+     
+    <div class="loginbox">
+    <img src="{{url_for('static', filename='bookimg.png')}}" class="avatar"/>
+    <h1>Welcome to Gif2LovedOne</h1>
+    <h3>Please Enter the Information below to send a Gif to Your Loved One</h3>
+    <h4>Sent through Whatsapp!</h4>
+    <form>
+        <P>Phone Number:</P>
+        <input type="text" name="" placeholder="Phone # (add country code: US: +1)">
+        <P>Type of Gif:</P>
+        <input type="Password" name="" placeholder="Type of Gif(Ex. cute, funny, etc.)">
+        <input type="SUBMIT" name="" value="Send Message!">
+
+
+    </form>
+
+    </div>
